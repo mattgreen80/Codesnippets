@@ -1,0 +1,11 @@
+C:\GIT\CodeSnippets\Delegates\Delegates\bin\Debug\netcoreapp2.1\Delegates.deps.json
+C:\GIT\CodeSnippets\Delegates\Delegates\bin\Debug\netcoreapp2.1\Delegates.runtimeconfig.json
+C:\GIT\CodeSnippets\Delegates\Delegates\bin\Debug\netcoreapp2.1\Delegates.runtimeconfig.dev.json
+C:\GIT\CodeSnippets\Delegates\Delegates\bin\Debug\netcoreapp2.1\Delegates.dll
+C:\GIT\CodeSnippets\Delegates\Delegates\bin\Debug\netcoreapp2.1\Delegates.pdb
+C:\GIT\CodeSnippets\Delegates\Delegates\obj\Debug\netcoreapp2.1\Delegates.csprojAssemblyReference.cache
+C:\GIT\CodeSnippets\Delegates\Delegates\obj\Debug\netcoreapp2.1\Delegates.csproj.CoreCompileInputs.cache
+C:\GIT\CodeSnippets\Delegates\Delegates\obj\Debug\netcoreapp2.1\Delegates.AssemblyInfoInputs.cache
+C:\GIT\CodeSnippets\Delegates\Delegates\obj\Debug\netcoreapp2.1\Delegates.AssemblyInfo.cs
+C:\GIT\CodeSnippets\Delegates\Delegates\obj\Debug\netcoreapp2.1\Delegates.dll
+C:\GIT\CodeSnippets\Delegates\Delegates\obj\Debug\netcoreapp2.1\Delegates.pdb
