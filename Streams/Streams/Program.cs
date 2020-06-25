@@ -38,7 +38,7 @@ namespace Streams
                 // you can pass it an existing stream too rather than opening a new one by passing a file name
                 FileStream fs = new FileStream(aFile, FileMode.Open);
                 // if you look at the FileStream methods, they can only read and write bytes, hence the need for StreamWriter below.
-                using (StreamWriter sw = new StreamWriter(filename))
+                using (StreamWriter sw = new StreamWriter(fs))
                 {
                     // see the underlying stream it is using
                     Console.WriteLine(sw.BaseStream.GetType());
@@ -49,7 +49,16 @@ namespace Streams
 
                 // you can use the File class to get a streamreader for a particular file
                 StreamReader reader = new StreamReader(File.OpenRead(filename));
-                Console.WriteLine( reader.ReadToEnd());
+                reader.Close();
+
+                // stream clases implement IDisposable, meaning that it has a dispose method to release resources.
+                // the Close() method just calls the Dispose() method and you dont need to use these methods if you wrap in
+                // a using statement because the using block calls dispose when it's finished.
+                StreamReader reader2 = new StreamReader(fs);
+                reader2.Close();
+
+                Console.WriteLine(reader.ReadToEnd());
+                Console.WriteLine(reader2.ReadToEnd());
 
             }
 
